@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
+             ControlTemplate="{StaticResource Cssbackground}"
+             mc:Ignorable="d"
+             x:Class="Pradeep_PhoneBook.MainPage"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ControlTemplate   x:Key="Cssbackground">
+                <Grid>
+                    <magic:GradientView VerticalOptions="FillAndExpand"
+                                            HorizontalOptions="FillAndExpand">
+                        <magic:GradientView.GradientSource>
+                            <magic:CssGradientSource>
+                                <x:String>
+                                    <![CDATA[radial-gradient(circle at 47% 14%, rgba(205, 205, 205,0.04) 0%, rgba(205, 205, 205,0.04) 43%,transparent 43%, transparent 100%),radial-gradient(circle at 35% 12%, rgba(215, 215, 215,0.04) 0%, rgba(215, 215, 215,0.04) 4%,transparent 4%, transparent 100%),radial-gradient(circle at 1% 35%, rgba(24, 24, 24,0.04) 0%, rgba(24, 24, 24,0.04) 37%,transparent 37%, transparent 100%),radial-gradient(circle at 21% 1%, rgba(0, 0, 0,0.04) 0%, rgba(0, 0, 0,0.04) 26%,transparent 26%, transparent 100%),radial-gradient(circle at 23% 82%, rgba(249, 249, 249,0.04) 0%, rgba(249, 249, 249,0.04) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 11% 54%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 23%,transparent 23%, transparent 100%),radial-gradient(circle at 69% 68%, rgba(234, 234, 234,0.04) 0%, rgba(234, 234, 234,0.04) 10%,transparent 10%, transparent 100%),linear-gradient(90deg, rgb(228, 46, 222),rgb(63, 61, 215))]]>
+                                </x:String>
+                            </magic:CssGradientSource>
+                        </magic:GradientView.GradientSource>
+                    </magic:GradientView>
+                    <ContentPresenter/>
+                </Grid>
+            </ControlTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+
+        <StackLayout Padding="5" >
+                <Button Text="Add Contact" HorizontalOptions="FillAndExpand"  CornerRadius="20"
+                           TextColor="Black" Clicked="AddEmployee" >
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="1,0">
+                            <GradientStop Color="Yellow" Offset="0.1" />
+                            <GradientStop Color="Green" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+            <ListView x:Name="EmployeeList" HasUnevenRows="True" ItemTapped="EditEmployee" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Delete" Clicked="DeleteEmployee" IsDestructive="True" CommandParameter="{Binding .}" />
+                            </ViewCell.ContextActions>
+                            <StackLayout Orientation="Horizontal">
+                                <Grid BackgroundColor="Transparent" Padding="10">
+                                    <Image Source="{Binding ImagePath}" HeightRequest="50" WidthRequest="50"/>
+                                </Grid>
+                                <StackLayout Orientation="Vertical" WidthRequest="200">
+                                    <Label Text="{Binding Name,StringFormat='Name:{0:F0}'}" FontSize="Small" FontAttributes="Bold" />
+                                    <Label Text="{Binding Address,StringFormat='Address:{0:F0}'}" FontSize="Small" FontAttributes="None" />
+                                    <Label Text="{Binding PhoneNumber,StringFormat='Phone No.:{0:F0}'}" FontSize="Small" FontAttributes="None" />
+                                </StackLayout>
+                                <Grid BackgroundColor="Transparent" Padding="10">
+                                    <Button ImageSource="phone" x:Name="callPerson" CommandParameter="{Binding PhoneNumber}" Clicked="callPerson_Clicked" HeightRequest="50" WidthRequest="50"  BackgroundColor="Transparent"/>
+                                </Grid>
+                            </StackLayout>
+                        </ViewCell>
+                     </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ScrollView>
+   </ContentPage.Content>
+</ContentPage>

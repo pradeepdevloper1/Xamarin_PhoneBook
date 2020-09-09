@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "5RE68ZPdwrQAo52V10+3zyAK4aTPPEAQJgnSBhUbxpAPMs0H4++38g1AJbE9A1Qj6GqNfQKveUTLWE17ZU2w5g==",
+  "success": true,
+  "projectFilePath": "D:\\Xamarin\\Pradeep_PhoneBook\\Pradeep_PhoneBook\\Pradeep_PhoneBook.iOS\\Pradeep_PhoneBook.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\magicgradients\\1.1.1\\magicgradients.1.1.1.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\skiasharp\\1.68.1.1\\skiasharp.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\skiasharp.views\\1.68.1.1\\skiasharp.views.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\skiasharp.views.forms\\1.68.1.1\\skiasharp.views.forms.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Pradeep Kumar\\.nuget\\packages\\xamarin.forms\\4.8.0.1364\\xamarin.forms.4.8.0.1364.nupkg.sha512"
+  ],
+  "logs": []
+}

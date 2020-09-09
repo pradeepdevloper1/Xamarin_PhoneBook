@@ -1,0 +1,15 @@
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\bin\Debug\netstandard2.0\Pradeep_PhoneBook.deps.json
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\bin\Debug\netstandard2.0\Pradeep_PhoneBook.dll
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\bin\Debug\netstandard2.0\ref\Pradeep_PhoneBook.dll
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\bin\Debug\netstandard2.0\Pradeep_PhoneBook.pdb
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\Pradeep_PhoneBook.csprojAssemblyReference.cache
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\Pradeep_PhoneBook.AssemblyInfoInputs.cache
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\Pradeep_PhoneBook.AssemblyInfo.cs
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\Pradeep_PhoneBook.dll
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\ref\Pradeep_PhoneBook.dll
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\Pradeep_PhoneBook.pdb
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\AddUser.xaml.g.cs
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\Pradeep_PhoneBook.csproj.CoreCompileInputs.cache
+D:\Xamarin\Pradeep_PhoneBook\Pradeep_PhoneBook\Pradeep_PhoneBook\obj\Debug\netstandard2.0\XamlC.stamp
